@@ -1,0 +1,21 @@
+.profile-list{
+    padding:0% 10%;
+}
+.profile-row-border{
+    height: 2px;
+    background-color: rgb(214, 214, 214);
+}
+
+@media (max-width: 600px) {
+    .profile-list{
+        padding:0% 5%;
+    }
+    .profile-row-border{
+        height: 20px;
+        background-color: rgb(214, 214, 214);
+    }
+}
+
+@media (max-width: 480px) {
+    /* Styles for screens up to 480px wide (e.g., mobile phones) */
+}
